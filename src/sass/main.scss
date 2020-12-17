@@ -1,7 +1,19 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+@import './base/normalize';
+@import './utils/mixins';
+@import './utils/variables';
+@import './utils/placeholders';
+@import './base/base-styles';
+@import './base/container';
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './components/header/header';
+@import './components/header/category_nav';
+@import './components/seach-form/search-form';
+@import './components/registration/registration';
+@import './components/add-modal.scss/add-modal';
+@import './components/pagination/sergiis-pagination';
+
+@import './components/pagination/pagination';
+@import './components/pagination/footer';
+.is-hidden {
+  display: none;
+}
